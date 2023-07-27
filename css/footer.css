@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@700&display=swap');
+
+footer{
+    width: 100%;
+    height: 60vh;
+    background-color: #EB4A7B;
+}
+
+
+footer nav{
+    width: 70vw;
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer nav figure{
+    display: none;
+}
+
+
+
+footer h3{
+    font-family: 'Roboto Serif', serif;
+    font-weight:bold;
+    color: #ffffff;
+    font-size: 1.7rem;
+}
+
+footer ul{
+    list-style: none;
+    margin-top: 2vh;
+}
+
+footer li{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    line-height: 4.5vh;
+}
+
+
+@media(min-width:320px) and (max-width:500px){
+
+
+    footer{
+        width: 100%;
+        height: 155vh;
+        background-color: #EB4A7B;
+    }
+
+
+    footer nav{
+
+        width: 100%;
+        height: 155vh;
+        flex-direction: column;
+      
+    }
+
+  footer #logo-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:80vw;
+    height: 15vh;
+   
+    position: relative;
+    top: 8vh;
+  }
+
+  footer nav figure img{
+    display: inline-block;
+  }
+
+  footer #logo-footer #img_logo-footer{
+    width: 100%;
+    height: 12vh;
+    margin-left: 8vw;
+  }
+
+  footer nav #icons-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:80vw;
+    height: 12vh;
+   
+   
+
+  }
+
+  footer nav #icons-footer img{
+    position: relative;
+    left: 1.3vw;
+    width: 15vw;
+    height: 15vh;
+  }
+
+  footer nav .atendimento,.sobre{
+    width: 70vw;
+    height: 35vh;
+   
+  }
+
+  footer nav  li{
+    text-align: center;
+    line-height: 6vh;
+  }
+
+  footer nav h3{
+    text-align: center;
+  }
+
+}
+
+@media(min-width:501px) and (max-width: 900px){
+
+
+  footer nav{
+
+    width: 95vw;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+
+}

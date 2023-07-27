@@ -1,0 +1,194 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+#section_Banho_e_tosa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 120vh;
+   
+    background-image: url(..//img-section/Interseção\ 16.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:bottom;
+    background-size: 100% 120vh;
+}
+
+#section_Banho_e_tosa .div-section{
+    width: 35vw;
+    height: 55vh;
+    position: relative;
+    right: 12vw;
+   
+}
+
+#section_Banho_e_tosa .div-section h2{
+   color: #3A342F;
+   font-family: 'Roboto Serif', serif;
+   font-size: 3rem;
+}
+
+#section_Banho_e_tosa .div-section p{
+  font-family: 'Roboto', sans-serif;
+  color: #3A342F;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 0.9vw;
+  line-height: 5vh;
+  white-space: pre-line;
+}
+
+button{
+  width: 14vw;
+  height: 10vh;
+  background-color: #3A342F;
+  border-radius: 44px;
+  color: #F4F2F3;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  align-items: center;
+  font-size: 1.4rem;
+  padding: 8px;
+  margin-top: 6vh;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color:#6e5742;
+  color:#ffffff;
+}
+
+@media(min-width:400px) and (max-width: 500px){
+
+#section_Banho_e_tosa{
+  display: flex;
+  align-items: flex-start;
+  background-image: url(../img-section/Grupo\ 484.png);
+  height: 120vh;
+  background-size: 100% 120vh;
+  
+}
+
+
+#section_Banho_e_tosa .div-section{
+  position: relative;
+  left: 2vw;
+  margin-top: 6vh;
+  width: 95vw;
+  height: 55vh;
+  position: absolute;
+ 
+  
+}
+
+button{
+
+  margin-top: 1vh;
+  width: 43vw;
+  height: 10vh;
+  padding: 3px;
+
+}
+
+}
+
+@media(min-width:320px) and (max-width: 399px){
+
+  #section_Banho_e_tosa{
+    display: flex;
+     background-image: url(../img-section/Grupo\ 484.png);
+    align-items: flex-start;
+    background-repeat: no-repeat;
+     
+    
+  }
+
+  #section_Banho_e_tosa .div-section{
+   
+    position: relative;
+    left: 2vw;
+    margin-top: 7vh;
+    width: 95vw;
+    height: 45vh;
+    position: absolute;
+
+    
+  }
+
+  #section_Banho_e_tosa .div-section h2{
+    color: #3A342F;
+    font-family: 'Roboto Serif', serif;
+    font-size: 2rem;
+ }
+
+ #section_Banho_e_tosa .div-section p{
+  white-space: normal;
+  width:100%;
+  font-size: 1.3rem;
+  margin-top: 0.9vw;
+  line-height: 5vh;
+}
+
+button{
+
+  margin-top: 2vh;
+  width: 53vw;
+  height: 10vh;
+  padding: 1px;
+
+}
+
+}
+
+
+@media(min-width:501px) and (max-width: 900px){
+
+
+   #section_Banho_e_tosa .div-section{
+   
+    position: relative;
+    left: 2vw;
+    
+    width: 50vw;
+    height: 55vh;
+    position: absolute;
+   
+    
+  }
+
+  #section_Banho_e_tosa .div-section h2{
+    
+    font-size: 2rem;
+ }
+
+ button{
+
+  margin-top: 2vh;
+  width: 35vw;
+  height: 8vh;
+  padding: 1px;
+
+}
+
+}
+
+@media(min-width:901px) and (max-width: 1500px)
+{
+
+
+  #section_Banho_e_tosa .div-section{
+    width: 40vw;
+    height: 55vh;
+    position: relative;
+    right: 15vw;
+  }
+
+  button{
+    width: 18vw;
+    height: 10vh;
+  }
+
+}
+
+
